@@ -1,0 +1,17 @@
+h1{
+   position: relative;
+    text-align: center;
+}
+
+div{
+    margin: auto;
+    width: 50%;
+}
+
+input[type=button]{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
