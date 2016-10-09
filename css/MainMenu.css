@@ -1,17 +1,4 @@
-h1{
-   position: relative;
-    text-align: center;
-    font-size: 35px;
-    border: solid black;
-    background: #7271ff;
-}
-
-h2{
-
-    position: relative;
-    text-align: center;
-    font-size: 25px;
-}
+@import "Banner.css";
 
 input[type=submit]{
     width: 200px;
