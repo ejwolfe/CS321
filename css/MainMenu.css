@@ -1,0 +1,11 @@
+@import "Banner.css";
+
+input[type=submit]{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+
