@@ -73,6 +73,13 @@ nav a:hover, a.fancyButton:hover{
     -moz-transition: all .3s;
     transition: all .3s;
 }
+
+nav.home a{
+    margin: 15px;
+    padding: 20px;
+    font-size: 32px;
+}
+
 table {
     border-collapse: collapse;
     text-align: center;
@@ -85,7 +92,14 @@ table, th, td {
 }
 
 th, td{
-    padding: 5px;
+    padding: 15px;
+}
+th{
+    background-color: #7271ff; 
+}
+th, th a, th a:visited{
+    color: #fff;
+    text-decoration: none;
 }
 img{
     width: 100%;
