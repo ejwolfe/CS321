@@ -1,121 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../../css/TableView.css">
-    <title>Comic Book Collection</title>
-    <h1>Comic Book Database</h1>
-    <h2>Comic Book Collection</h2>
-</head>
-<body>
-<div>
-    <table>
-        <tr><title>Add Comic Book(s)</title></tr>
-        <tr>
-            <th>Comic Book Series</th>
-            <th>TV Series</th>
-            <th>Price</th>
-            <th>Number of Pages</th>
-            <th>Genre</th>
-            <th>Publish Date</th>
-            <th>Issue Number</th>
-        </tr>
-        <tr>
-            <td>Bart Simpson</td>
-            <td>The Simpsons</td>
-            <td>$2.99</td>
-            <td>50</td>
-            <td>Comedy</td>
-            <td>4/17/2016</td>
-            <td>86</td>
-        </tr>
-        <tr>
-            <td>Futurama</td>
-            <td>Futurama</td>
-            <td>$3.99</td>
-            <td>10</td>
-            <td>Comedy</td>
-            <td>4/15/2016</td>
-            <td>76</td>
-        </tr>
-        <tr>
-            <td>Futurama</td>
-            <td>Futurama</td>
-            <td>$2.99</td>
-            <td>35</td>
-            <td>Comedy</td>
-            <td>6/15/2015</td>
-            <td>56</td>
-        </tr>
-        <tr>
-            <td>Simpsons</td>
-            <td>The Simpsons</td>
-            <td>$2.99</td>
-            <td>36</td>
-            <td>Comedy</td>
-            <td>9/17/2016</td>
-            <td>204</td>
-        </tr>
-        <tr>
-            <td>Radioactive Man</td>
-            <td>The Simpsons</td>
-            <td>$2.99</td>
-            <td>36</td>
-            <td>Super Hero</td>
-            <td>4/16/2016</td>
-            <td>136</td>
-        </tr>
-        <tr>
-            <td>Radioactive Man</td>
-            <td>The Simpsons</td>
-            <td>$2.99</td>
-            <td>20</td>
-            <td>Super Hero</td>
-            <td>4/16/2012</td>
-            <td>8</td>
-        </tr>
-        <tr>
-            <td>
-                <form action="SortedByComicBookSeries.html" method="get">
-                    <input type="submit" class="sort" value="Sort by Comic Book Series">
-                </form>
-            </td>
-            <td>
-                <form action="SortedByTVSeries.html" method="get">
-                    <input type="submit" class="sort" value="Sort by TV Series">
-                </form>
-            </td>
-            <td>
-                <form action="SortedByPrice.html" method="get">
-                    <input type="submit" class="sort" value="Sort by Price">
-                </form>
-            </td>
-            <td>
-                <form action="SortedByNumberOfPages.html" method="get">
-                    <input type="submit" class="sort" value="Sort by Number of Pages">
-                </form>
-            </td>
-            <td>
-                <form action="../ComicBookCollection-TableView-6.html" method="get">
-                    <input type="submit" class="sort" value="Sort by Genre">
-                </form>
-            </td>
-            <td>
-                <form action="SortedByPublishDate.html" method="get">
-                    <input type="submit" class="sort" value="Sort by Publish Date">
-                </form>
-            </td>
-            <td>
-                <form action="SortedByIssueNumber.html" method="get">
-                    <input type="submit" class="sort" value="Sort by Issue Number">
-                </form>
-            </td>
-        </tr>
-    </table>
-    <form action="ComicBookCollection-FrontView-6.html" method="get">
-        <input type="submit" id="submit" value="Switch to Front Cover View">
-    </form>
-</div>
-
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../../css/StyleSheet.css">
+        <title>Comic Book Collection</title>
+    </head>
+    <body>
+        <header>
+            <h1>Comic Book Database</h1>
+        </header>
+        <div class="container">
+            <div class="row">
+                <nav>
+                    <div class="col-6"><a href="../MainMenu-6.html">Main Menu</a></div>
+                    <div class="col-6" style="text-align:right;"><a href="../ComicBookCollection-FrontView-6.html">Change to Front View</a></div>
+                </nav>
+                <h2>Comic Book Collection</h2>
+                <table> 
+                    <tr>
+                        <th><a href="SortedByComicBookSeries.html">Comic Book Series</a></th>
+                        <th><a href="SortedByTVSeries.html">TV Series</a></th>
+                        <th><a href="SortedByPrice.html">Price</a></th>
+                        <th><a href="SortedByNumberOfPages.html">Number of Pages</a></th>
+                        <th><a href="SortedByGenre.html">Genre</th>
+                        <th><a href="SortedByPublishDate.html">Publish Date</a></th>
+                        <th><a href="SortedByIssueNumber.html">Issue Number</a></th>
+                    </tr>
+                    <tr>
+                        <td>Bart Simpson</td>
+                        <td>The Simpsons</td>
+                        <td>$2.99</td>
+                        <td>50</td>
+                        <td>Comedy</td>
+                        <td>4/17/2016</td>
+                        <td>86</td>
+                    </tr>
+                    <tr>
+                        <td>Futurama</td>
+                        <td>Futurama</td>
+                        <td>$3.99</td>
+                        <td>10</td>
+                        <td>Comedy</td>
+                        <td>4/15/2016</td>
+                        <td>76</td>
+                    </tr>
+                    <tr>
+                        <td>Futurama</td>
+                        <td>Futurama</td>
+                        <td>$2.99</td>
+                        <td>35</td>
+                        <td>Comedy</td>
+                        <td>6/15/2015</td>
+                        <td>56</td>
+                    </tr>
+                    <tr>
+                        <td>Simpsons</td>
+                        <td>The Simpsons</td>
+                        <td>$2.99</td>
+                        <td>36</td>
+                        <td>Comedy</td>
+                        <td>9/17/2016</td>
+                        <td>204</td>
+                    </tr>
+                    <tr>
+                        <td>Radioactive Man</td>
+                        <td>The Simpsons</td>
+                        <td>$2.99</td>
+                        <td>36</td>
+                        <td>Super Hero</td>
+                        <td>4/16/2016</td>
+                        <td>136</td>
+                    </tr>
+                    <tr>
+                        <td>Radioactive Man</td>
+                        <td>The Simpsons</td>
+                        <td>$2.99</td>
+                        <td>20</td>
+                        <td>Super Hero</td>
+                        <td>4/16/2012</td>
+                        <td>8</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
 </html>
