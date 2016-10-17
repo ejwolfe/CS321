@@ -23,13 +23,20 @@ a, a:visited{
 header{
     margin-top: 0px;
     text-align: center;
-    background: rgba(248,39,8,.65);
     padding: 20px;
+    background: rgba(248,39,8,.65);
+}
+header> a> img {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    display: inline-block;
+    float: right;
 }
 header > h1{
-    margin: 0;
     font-size: 35px;
     color: #fff;
+    display: inline-block;
 }
 
 h2{
