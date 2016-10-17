@@ -23,7 +23,7 @@ a, a:visited{
 header{
     margin-top: 0px;
     text-align: center;
-    background: #f82708;
+    background: rgba(248,39,8,.65);
     padding: 20px;
 }
 header > h1{
@@ -49,9 +49,9 @@ nav{
     margin: 15px auto;
 }
 nav a, nav a:visited, a.fancyButton{
-    border: #fcbb0b 1px solid;
+    border: rgba(252,187,11,.65); 1px solid;
     border-radius: 5px;
-    color: #fcbb0b;
+    color: rgba(252,187,11,.65);
     padding: 10px;
     text-decoration: none;
     display: inline-block;
@@ -61,10 +61,10 @@ nav a, nav a:visited, a.fancyButton{
     transition: all .3s;
 }
 nav a:hover, a.fancyButton:hover{
-    border: #fcbb0b 1px solid;
+    border: rgba(252,187,11,.65); 1px solid;
     border-radius: 5px;
     color: #fff;
-    background-color: #fcbb0b; 
+    background-color: rgba(252,187,11,.65); 
     padding: 10px;
     text-decoration: none;
     display: inline-block;
@@ -101,8 +101,8 @@ th, th a, th a:visited{
     color: #fff;
     text-decoration: none;
 }
-tr:nth-child(even) { background: #fcbb0b; }
-tr:nth-child(odd) { background: #f82708; }
+tr:nth-child(even) { background: rgba(252,187,11,.65); }
+tr:nth-child(odd) { background: rgba(248,39,8,.65); }
 tr:hover{
     background-color: #000;
     color: #fff;
