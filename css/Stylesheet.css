@@ -23,7 +23,7 @@ a, a:visited{
 header{
     margin-top: 0px;
     text-align: center;
-    background: #7271ff;
+    background: #f82708;
     padding: 20px;
 }
 header > h1{
@@ -49,9 +49,9 @@ nav{
     margin: 15px auto;
 }
 nav a, nav a:visited, a.fancyButton{
-    border: #7271ff 1px solid;
+    border: #fcbb0b 1px solid;
     border-radius: 5px;
-    color: #7271ff;
+    color: #fcbb0b;
     padding: 10px;
     text-decoration: none;
     display: inline-block;
@@ -61,10 +61,10 @@ nav a, nav a:visited, a.fancyButton{
     transition: all .3s;
 }
 nav a:hover, a.fancyButton:hover{
-    border: #7271ff 1px solid;
+    border: #fcbb0b 1px solid;
     border-radius: 5px;
     color: #fff;
-    background-color: #7271ff; 
+    background-color: #fcbb0b; 
     padding: 10px;
     text-decoration: none;
     display: inline-block;
@@ -95,11 +95,17 @@ th, td{
     padding: 15px;
 }
 th{
-    background-color: #7271ff; 
+    background-color: #000; 
 }
 th, th a, th a:visited{
     color: #fff;
     text-decoration: none;
+}
+tr:nth-child(even) { background: #fcbb0b; }
+tr:nth-child(odd) { background: #f82708; }
+tr:hover{
+    background-color: #000;
+    color: #fff;
 }
 img{
     width: 100%;
