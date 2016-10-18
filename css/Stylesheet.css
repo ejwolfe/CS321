@@ -30,8 +30,8 @@ header> a> img {
     width: 100px;
     height: 100px;
     background: #fff;
-    display: inline-block;
     float: right;
+    margin-left: -100px;
 }
 header > h1{
     font-size: 35px;
@@ -56,8 +56,8 @@ nav{
     margin: 15px auto;
 }
 nav a, nav a:visited, a.fancyButton{
-    border: rgba(252,187,11,.85) solid;
-    border-width:  3px;
+    border: rgba(252,187,11,.85) 2px solid;
+    /*border-width:  3px;*/
     border-radius: 5px;
     color: rgba(252,187,11,.95);
     text-decoration: none;
@@ -66,9 +66,10 @@ nav a, nav a:visited, a.fancyButton{
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
+    padding: 5px;
 }
 nav a:hover, a.fancyButton:hover{
-    border: rgba(252,187,11,.65); 1px solid;
+    border: rgba(252,187,11,.65) 2px solid;
     border-radius: 5px;
     color: #fff;
     background-color: rgba(252,187,11,.65); 
@@ -108,9 +109,11 @@ th, th a, th a:visited{
     text-decoration: none;
 }
 tr:nth-child(even) { background: rgba(252,187,11,.65); }
-tr:nth-child(odd) { background: rgba(248,39,8,.65); }
+    tr:nth-child(odd) { background: rgba(248,39,8,.65); }
+/*tr:nth-child(even):hover { background: rgba(252,187,11,.9); }
+tr:nth-child(odd):hover { background: rgba(248,39,8,.9); }*/
 tr:hover{
-    background-color: #000;
+    background-color:rgba(0, 0, 0, .6);
     color: #fff;
 }
 img{
