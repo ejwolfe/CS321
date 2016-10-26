@@ -1,0 +1,1 @@
+Rewrite the old files so that cover view is able to be resized and has the add capabilities.
