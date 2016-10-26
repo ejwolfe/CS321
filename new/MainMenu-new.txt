@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Add to Comic Book Collection</title>
+        <link rel="stylesheet" type="text/css" href="../css/Stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <h1>Comic Book Database</h1>
+            <a href="../html/MainMenu.html">
+            <img border="0" alt="Bongo Comics logo" src="../images/BongoLogo.jpg">
+            </a>
+        </header>
+        <div class="container">
+            <div class="row">
+                <nav>
+                    <div class="col-12"><a href="./MainMenu.html">Main Menu</a></div>
+                </nav>
+                <h2>Add to Comic Book Database</h2>
+                <table>
+                </table>
+                <div class="col-4"><a class="fancyButton" href="ComicBookCollection-TableView-6.html">Add Comics</a></div>
+            </div>
+        </div>
+    </body>
+</html>
